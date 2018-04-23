@@ -1,0 +1,36 @@
+.section-04 {
+  background-color: #f3f1e9;
+
+
+  .section-header {
+    position: relative;
+    text-align: center;
+
+    .title {
+      color: #56534c;
+      font-size: 3rem;
+      font-family: 'Alegreya';
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .subtitle {
+      color: #a47d5e;
+      font-size: 0.875rem;
+      font-family: 'Alegreya';
+      font-weight: 700;
+    }
+
+    .deco-01 {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  .section-content {
+
+  }
+  .section-footer {
+
+  }
+}
