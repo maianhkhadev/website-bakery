@@ -12,7 +12,7 @@ class Page extends Component {
                 <div className="col-xl-12">
                   <div className="title">The Jibarito sandwich</div>
                   <div className="subtitle">the best sandwich you’ve ever tasted!</div>
-                  <img className="deco-01" src="@/assets/images/pages/home/section-04/deco-01.png" alt=""/>
+
                 </div>
               </div>
             </div>
