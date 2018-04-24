@@ -1,0 +1,61 @@
+.section-05 {
+  background-color: #f3f1e9;
+
+
+  .section-header {
+
+    .title {
+      color: #56534c;
+      font-size: 3rem;
+      font-family: 'Alegreya';
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.2;
+    }
+    .subtitle {
+      color: #a47d5e;
+      font-size: 0.875rem;
+      font-family: 'Alegreya';
+      font-weight: 700;
+      text-align: center;
+    }
+  }
+  .section-content {
+
+    .main {
+      padding-top: 6.25rem;
+    }
+    .recipe {
+      text-align: center;
+      margin-bottom: 3.25rem;
+
+      &:last-child {
+        margin-bottom: unset;
+      }
+
+      .thumbnail {
+        width: 6.25rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0.5rem;
+      }
+      .name {
+        color: #a47d5e;
+        font-size: 1.875rem;
+        font-family: 'Alegreya';
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+      .content {
+        color: #56534c;
+        font-size: 0.875rem;
+        font-family: 'ProximaNova';
+      }
+    }
+  }
+  .section-footer {
+
+  }
+}
