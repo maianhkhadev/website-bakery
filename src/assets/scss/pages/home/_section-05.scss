@@ -1,6 +1,8 @@
 .section-05 {
+  position: relative;
   background-color: #f3f1e9;
-
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
   .section-header {
 
@@ -18,12 +20,86 @@
       font-family: 'Alegreya';
       font-weight: 700;
       text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.125rem;
     }
   }
   .section-content {
 
     .main {
       padding-top: 6.25rem;
+
+      .thumbnail {
+        border: 0.5rem solid #ffffff;
+        position: relative;
+
+        .info {
+          position: absolute;
+          top: 0;
+          right: -0.125rem;
+          width: 12rem;
+
+          .data {
+            position: relative;
+            background-color: rgba(#ffffff, 0.75);
+            padding-top: 100%;
+            margin-bottom: 0.0625rem;
+
+            &.bc-white {
+              background-color: #ffffff;
+            }
+
+            .content {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              text-align: center;
+
+              .name {
+                color: #a47d5e;
+                font-size: 1.125rem;
+                font-family: 'Alegreya';
+                font-weight: 700;
+              }
+              .time {
+                color: #56534c;
+                font-size: 3.75rem;
+                font-family: 'Alegreya';
+                font-weight: 700;
+                line-height: 1.2;
+              }
+              .time-2 {
+                color: #dfc691;
+                font-size: 5.75rem;
+                font-family: 'Alegreya';
+                font-weight: 700;
+                line-height: 1.1;
+              }
+              .unit {
+                color: #979285;
+                font-size: 1.125rem;
+                font-family: 'Alegreya';
+                font-weight: 700;
+              }
+            }
+          }
+        }
+
+        .view-detail {
+          position: absolute;
+          left: -2rem;
+          bottom: -2rem;
+          color: #dfc691;
+          background-color: #ffffff;
+          font-family: 'Alegreya';
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.125rem;
+          border: 0.0625rem dashed #dfc691;
+          padding: 1rem 3rem;
+        }
+      }
     }
     .recipe {
       text-align: center;
@@ -55,7 +131,12 @@
       }
     }
   }
-  .section-footer {
 
+  .deco-01 {
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
   }
 }
