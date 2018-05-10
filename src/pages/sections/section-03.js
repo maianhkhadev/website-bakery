@@ -21,21 +21,12 @@ class Section extends Component {
         <div className="section-content">
           <div className="container">
             <div className="row">
-            <div className="col-xl-2">
-              <div className="time-to-cook">
-                <div className="content">
-                  <div className="name">Ready in</div>
-                  <div className="time">50</div>
-                  <div className="unit">mins</div>
-                </div>
-              </div>
-            </div>
-              <div className="col-xl-4">
+              <div className="col-xl-4 ml-auto">
                 <div className="thumbnail">
-                  <img className="w-100" src={ require('@/assets/images/pages/home/section-03/im-01.jpg') } alt=""/>
+                  <img className="" src={ require('@/assets/images/pages/home/section-03/im-01.jpg') } alt=""/>
                 </div>
               </div>
-              <div className="col-xl-5">
+              <div className="col-xl-5 mr-auto">
                 <div className="block">
                   <img className="deco-01 img-fluid" src={ require('@/assets/images/pages/home/section-03/deco-01.png') } alt=""/>
 
@@ -74,6 +65,16 @@ class Section extends Component {
                        </div>
                     </div>
                   </Slick>
+                </div>
+              </div>
+            </div>
+
+            <div className="test">
+              <div className="time-to-cook">
+                <div className="content">
+                  <div className="name">Ready in</div>
+                  <div className="time">50</div>
+                  <div className="unit">mins</div>
                 </div>
               </div>
             </div>

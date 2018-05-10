@@ -9,43 +9,56 @@
   .col-xl-4, .col-xl-5 {
     padding: 0;
   }
-  .time-to-cook {
+
+  .container {
     position: relative;
-    background-color: #ffffff;
-    background-image: url('~assets/images/pages/home/section-03/time-bim.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 100%;
+  }
+  .test {
+    position: absolute;
+    top: -2.5rem;
+    right: 4rem;
+    width: 12.5rem;
 
-    .content {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
+    .time-to-cook {
+      position: relative;
+      background-color: #ffffff;
+      background-image: url('~assets/images/pages/home/section-03/time-bim.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      box-shadow: -0.75rem 0.75rem 2rem #d1cbc5;
+      padding-top: 100%;
 
-      .name {
-        color: #a47d5e;
-        font-size: 1.125rem;
-        font-family: 'Alegreya';
-        font-weight: 700;
-      }
-      .time {
-        color: #dfc691;
-        font-size: 5.75rem;
-        font-family: 'Alegreya';
-        font-weight: 700;
-        line-height: 1.1;
-      }
-      .unit {
-        color: #979285;
-        font-size: 1.125rem;
-        font-family: 'Alegreya';
-        font-weight: 700;
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        .name {
+          color: #a47d5e;
+          font-size: 1.125rem;
+          font-family: 'Alegreya';
+          font-weight: 700;
+        }
+        .time {
+          color: #dfc691;
+          font-size: 5.75rem;
+          font-family: 'Alegreya';
+          font-weight: 700;
+          line-height: 1;
+        }
+        .unit {
+          color: #979285;
+          font-size: 1.125rem;
+          font-family: 'Alegreya';
+          font-weight: 700;
+        }
       }
     }
   }
+
   .block {
     position: relative;
     background-color: #ffffff;
@@ -53,9 +66,11 @@
     padding: 5rem 3.5rem 2.5rem;
 
     .thumbnail {
+      height: 100%;
+      overflow: hidden;
 
       .stars {
-        
+
       }
     }
 
