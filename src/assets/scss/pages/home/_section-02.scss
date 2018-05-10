@@ -1,5 +1,89 @@
 .section-02 {
+  position: relative;
   background-color: #fefdfc;
-  padding-top: 5rem;
+  padding-top: 6.5rem;
   padding-bottom: 5rem;
+
+  .block {
+    text-align: center;
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+
+    .block-header {
+      margin-bottom: 3.75rem;
+
+      .title {
+        color: #56534c;
+        font-size: 3rem;
+        font-family: 'Alegreya';
+        font-weight: bold;
+        line-height: 1.1;
+      }
+      .subtitle {
+        color: #a47d5e;
+        font-size: 0.875rem;
+        font-family: 'Alegreya';
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+
+    .content {
+      color: #56534c;
+      font-size: 0.875rem;
+      font-family: 'ProximaNova';
+      line-height: 1.75;
+    }
+
+    .chef-info {
+      list-style-type: none;
+      -webkit-padding-start: 0;
+
+      li {
+        display: inline-block;
+      }
+      .avatar {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
+        img {
+          border-radius: 50%;
+        }
+      }
+      .name {
+        width: 8rem;
+        color: #56534c;
+        font-size: 1.5rem;
+        font-family: 'Alegreya';
+        border-top: 0.0625rem solid #d7d5ca;
+        border-bottom: 0.0625rem solid #d7d5ca;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+      }
+    }
+
+    .ty {
+      position: relative;
+      color: #a47d5e;
+      font-size: 1.5rem;
+      font-family: 'Scriptina';
+
+      .start-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .end-text {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .deco-01 {
+    position: absolute;
+    top: 0;
+    width: 100%
+  }
 }

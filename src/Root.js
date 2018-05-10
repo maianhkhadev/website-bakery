@@ -16,13 +16,13 @@ class Root extends Component {
               <div className="col-xl-5">
                 <ul className="nav nav-fill">
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Our menu</a>
+                    <a className="nav-link" href="#section-01">Our menu</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Gallery</a>
+                    <a className="nav-link" href="#section-01">Gallery</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Culture</a>
+                    <a className="nav-link" href="#section-01">Culture</a>
                   </li>
                 </ul>
               </div>
@@ -32,13 +32,13 @@ class Root extends Component {
               <div className="col-xl-5">
                 <ul className="nav nav-fill">
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Events</a>
+                    <a className="nav-link" href="#section-01">Events</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Catering</a>
+                    <a className="nav-link" href="#section-01">Catering</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Visit us</a>
+                    <a className="nav-link" href="#section-01">Visit us</a>
                   </li>
                 </ul>
               </div>

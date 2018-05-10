@@ -1,8 +1,15 @@
 .section-01 {
+  position: relative;
   background-image: url('~assets/images/pages/home/section-01/bim.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 6rem;
   padding-bottom: 6rem;
+
+  .deco-01 {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+  }
 }
