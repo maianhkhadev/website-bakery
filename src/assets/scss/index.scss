@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Alegreya:400,700');
 
 @font-face {
   font-family: 'ProximaNova';
@@ -67,5 +67,20 @@ button {
 .container {
   @media screen and (min-width: 1300px) {
     max-width: 1260px;
+  }
+}
+
+.btn-black {
+  color: #ffffff;
+  background-color: rgba(#000000, 0.5);
+  border-color: rgba(#000000, 0.5);
+
+  &:hover {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+  }
+  &:focus{
+    box-shadow: unset;
   }
 }

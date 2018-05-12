@@ -1,3 +1,48 @@
+header {
+  .navbar {
+    background-color: rgba(86, 83, 76, 0.529);
+
+    .navbar-brand {
+      margin-right: 4.5rem;
+    }
+
+    .nav-item {
+      position: relative;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+
+      &::after {
+        content: '~';
+        position: absolute;
+        top: 50%;
+        right: -0.3125rem;
+        transform: translateY(-50%);
+        color: #f4f4f4;
+        font-size: 0.875rem;
+      }
+      &:last-child {
+
+        &::after {
+          content: '';
+        }
+      }
+
+      .nav-link {
+        color: #f4f4f4;
+        font-size: 0.875rem;
+        font-family: 'Alegreya';
+
+        &:hover, .active {
+          color: #ffffff;
+        }
+      }
+    }
+
+    .icon {
+      margin-left: 1rem;
+    }
+  }
+}
 footer {
   background-color: #f3f1e9;
   padding-top: 5rem;
@@ -41,14 +86,4 @@ footer {
       }
     }
   }
-}
-.line {
-  background-color: rgb(194, 190, 186);
-  box-shadow: 0px 35px 17.63px 25.37px rgba(0, 0, 0, 0.38);
-  position: absolute;
-  left: 170px;
-  top: 99px;
-  width: 515px;
-  height: 1px;
-  z-index: 6;
 }

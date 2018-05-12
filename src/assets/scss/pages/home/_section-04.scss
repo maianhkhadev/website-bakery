@@ -5,4 +5,197 @@
   background-size: cover;
   padding-top: 5rem;
   padding-bottom: 5rem;
+
+
+  .block {
+
+    .block-header {
+      text-align: center;
+      margin-bottom: 3.75rem;
+
+      .title {
+        color: #ffffff;
+        font-size: 3rem;
+        font-family: 'Alegreya';
+        font-weight: bold;
+        letter-spacing: 0.125rem;
+        line-height: 1.1;
+      }
+      .subtitle {
+        color: #c8a593;
+        font-size: 0.875rem;
+        font-family: 'Alegreya';
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.125rem;
+      }
+    }
+    .block-content {
+
+      .dish {
+        text-align: center;
+        margin-bottom: 3rem;
+
+        &:last-child {
+          margin-bottom: unset;
+        }
+
+        .name {
+          color: #ffffff;
+          font-size: 1.875rem;
+          font-family: 'Alegreya';
+          font-weight: bold;
+        }
+        .desc {
+          color: #c2beba;
+          font-size: 1rem;
+          font-family: 'ProximaNova';
+        }
+        .value {
+          color: #dfc691;
+          font-size: 1.875rem;
+          font-family: 'Alegreya';
+        }
+      }
+    }
+  }
+
+  .menu {
+    position: relative;
+    padding-top: 125%;
+
+    &:before {
+      content: '';
+      position: absolute;
+      background-image: url('~assets/images/pages/home/section-04/menu.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .menu-content {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      width: 75%;
+      height: auto;
+      transform: translateX(-50%);
+      text-align: center;
+
+      .title {
+        color: #56534c;
+        font-size: 2.75rem;
+        font-family: 'Alegreya';
+        font-weight: 700;
+        margin-bottom: 2rem;
+      }
+      .content {
+        color: #56534c;
+        font-size: 0.875rem;
+        font-family: 'ProximaNova';
+        margin-bottom: 3.5rem;
+      }
+      button {
+        font-size: 1.125rem;
+        font-family: 'Alegreya';
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: unset;
+        padding: 0.675rem 4rem;
+      }
+    }
+  }
+}
+
+.stack {
+	margin: 0 auto;
+	position: relative;
+	z-index: 1000;
+	padding: 0;
+	list-style: none;
+  pointer-events: none;
+}
+
+.stack__item {
+	background: #fff;
+	height: 100%;
+	width: 100%;
+	border-radius: 4px;
+	text-align: center;
+	overflow: hidden;
+	position: absolute;
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	user-select: none;
+	pointer-events: auto;
+}
+
+/***********************************************/
+/******************** mawar *********************/
+/***********************************************/
+
+.stack--mawar .stack__item--reject {
+	-webkit-animation: mawarReject 0.5s forwards;
+	animation: mawarReject 0.5s forwards;
+}
+
+@-webkit-keyframes mawarReject {
+	to {
+		-webkit-transform: translate3d(-25vw,0,0) translate3d(-60%,0,0);
+		transform: translate3d(-25vw,0,0) translate3d(-60%,0,0);
+	}
+}
+
+@keyframes mawarReject {
+	to {
+		-webkit-transform: translate3d(-25vw,0,0) translate3d(-60%,0,0);
+		transform: translate3d(-25vw,0,0) translate3d(-60%,0,0);
+	}
+}
+
+.stack--mawar .stack__item--accept {
+	-webkit-animation: mawarAccept 0.5s forwards;
+	animation: mawarAccept 0.5s forwards;
+	-webkit-transform-origin: 100% 50%;
+	transform-origin: 100% 50%;
+}
+
+@-webkit-keyframes mawarAccept {
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(150px,0,0) scale3d(0.7,0.7,1) rotate3d(0,1,0,90deg);
+		transform: translate3d(150px,0,0) scale3d(0.7,0.7,1) rotate3d(0,1,0,90deg);
+	}
+}
+
+@keyframes mawarAccept {
+	to {
+		opacity: 0;
+		-webkit-transform: translate3d(150px,0,0) scale3d(0.7,0.7,1) rotate3d(0,1,0,90deg);
+		transform: translate3d(150px,0,0) scale3d(0.7,0.7,1) rotate3d(0,1,0,90deg);
+	}
+}
+
+/* ...when content has 100% vieport width */
+@media screen and (max-width: 60em) {
+
+	@-webkit-keyframes mawarReject {
+		to {
+			-webkit-transform: translate3d(-50vw,0,0) translate3d(-60%,0,0);
+			transform: translate3d(-50vw,0,0) translate3d(-60%,0,0);
+		}
+	}
+
+	@keyframes mawarReject {
+		to {
+			-webkit-transform: translate3d(-50vw,0,0) translate3d(-60%,0,0);
+			transform: translate3d(-50vw,0,0) translate3d(-60%,0,0);
+		}
+	}
+
 }
