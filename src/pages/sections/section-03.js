@@ -41,7 +41,12 @@ class Section extends Component {
                     </div>
                     <div className="slick-item">
                       <div className="thumbnail">
-                        <img className="w-100" src={ require('@/assets/images/pages/home/section-03/slide-01.jpg') } alt=""/>
+                        <img className="w-100" src={ require('@/assets/images/pages/home/section-03/slide-02.jpg') } alt=""/>
+                       </div>
+                    </div>
+                    <div className="slick-item">
+                      <div className="thumbnail">
+                        <img className="w-100" src={ require('@/assets/images/pages/home/section-03/slide-03.jpg') } alt=""/>
                        </div>
                     </div>
                     <div className="slick-item">
@@ -51,17 +56,12 @@ class Section extends Component {
                     </div>
                     <div className="slick-item">
                       <div className="thumbnail">
-                        <img className="w-100" src={ require('@/assets/images/pages/home/section-03/slide-01.jpg') } alt=""/>
+                        <img className="w-100" src={ require('@/assets/images/pages/home/section-03/slide-02.jpg') } alt=""/>
                        </div>
                     </div>
                     <div className="slick-item">
                       <div className="thumbnail">
-                        <img className="w-100" src={ require('@/assets/images/pages/home/section-03/slide-01.jpg') } alt=""/>
-                       </div>
-                    </div>
-                    <div className="slick-item">
-                      <div className="thumbnail">
-                        <img className="w-100" src={ require('@/assets/images/pages/home/section-03/slide-01.jpg') } alt=""/>
+                        <img className="w-100" src={ require('@/assets/images/pages/home/section-03/slide-03.jpg') } alt=""/>
                        </div>
                     </div>
                   </Slick>

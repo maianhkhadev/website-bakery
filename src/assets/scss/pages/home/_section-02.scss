@@ -9,6 +9,12 @@
     padding-left: 3.75rem;
     padding-right: 3.75rem;
 
+    @media screen and (max-width: 600px) {
+      padding-left: unset;
+      padding-right: unset;
+      margin-bottom: 5rem;
+    }
+
     .block-header {
       margin-bottom: 3.75rem;
 
@@ -35,9 +41,18 @@
       line-height: 1.75;
     }
 
+    .chef-cook {
+      color: #56534c;
+      font-size: 1.5rem;
+      font-family: 'Alegreya';
+      font-weight: bold;
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
     .chef-info {
       list-style-type: none;
       -webkit-padding-start: 0;
+      margin-bottom: 1.5rem;
 
       li {
         display: inline-block;
@@ -49,6 +64,11 @@
         img {
           border-radius: 50%;
         }
+
+        @media screen and (max-width: 600px) {
+          padding-left: unset;
+          padding-right: unset;
+        }
       }
       .name {
         width: 8rem;
@@ -59,14 +79,20 @@
         border-bottom: 0.0625rem solid #d7d5ca;
         padding-top: 0.75rem;
         padding-bottom: 0.75rem;
+
+        @media screen and (max-width: 350px) {
+          width: 6.5rem;
+        }
       }
     }
 
-    .ty {
+    .testimonial {
       position: relative;
       color: #a47d5e;
       font-size: 1.5rem;
       font-family: 'Scriptina';
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
 
       .start-text {
         position: absolute;

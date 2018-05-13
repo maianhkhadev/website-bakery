@@ -33,24 +33,11 @@ class Section extends Component {
                 </div>
               </div>
               <div className="col-xl-5 mx-auto">
-                <div className="stack stack--mawar">
-                  <div className="stack__item">
-                    <div className="menu">
-                      <div className="menu-content">
-                        <div className="title">Your morning Escape with Flair</div>
-                        <div className="content">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</div>
-                        <button className="btn btn-outline-black">Read</button>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="stack__item">
-                    <div className="menu">
-                      <div className="menu-content">
-                        <div className="title">Your morning Escape with Flair</div>
-                        <div className="content">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</div>
-                        <button className="btn btn-outline-black">Read</button>
-                      </div>
-                    </div>
+                <div className="menu">
+                  <div className="menu-content">
+                    <div className="title">Your morning Escape with Flair</div>
+                    <div className="content">Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.</div>
+                    <button className="btn btn-outline-black">Read</button>
                   </div>
                 </div>
               </div>

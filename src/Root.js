@@ -69,7 +69,7 @@ class Root extends Component {
                   </li>
                 </ul>
               </div>
-              <div className="col-xl-2">
+              <div className="col-xl-2 col-4 mx-auto">
                 <img className="w-100" src={ require('@/assets/images/black-name.png') } alt=""/>
               </div>
               <div className="col-xl-5">

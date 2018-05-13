@@ -6,6 +6,10 @@
 
   .section-header {
 
+    @media screen and (max-width: 600px) {
+      margin-bottom: 5rem;
+    }
+
     .title {
       color: #56534c;
       font-size: 3rem;
@@ -27,7 +31,11 @@
   .section-content {
 
     .main {
-      padding-top: 6.25rem;
+      margin-top: 6.25rem;
+
+      @media screen and (max-width: 600px) {
+        margin-top: 1.75rem;
+      }
 
       .thumbnail {
         border: 0.5rem solid #ffffff;
@@ -38,6 +46,10 @@
           top: 0;
           right: -0.5rem;
           width: 12rem;
+
+          @media screen and (max-width: 600px) {
+            display: none;
+          }
 
           .data {
             position: relative;
@@ -107,6 +119,15 @@
 
       &:last-child {
         margin-bottom: unset;
+      }
+
+      @media screen and (max-width: 600px) {
+        display: inline-block;
+        width: 50%;
+
+        &:last-child {
+          margin-bottom: 3.25rem;
+        }
       }
 
       .thumbnail {

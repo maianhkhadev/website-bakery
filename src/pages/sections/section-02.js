@@ -14,13 +14,13 @@ class Section extends Component {
                     <div className="subtitle">We create delicious memories</div>
                   </div>
                   <p className="content">Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed.</p>
-                  <div className="title">Chef Cook</div>
+                  <div className="chef-cook">Chef Cook</div>
                   <ul className="chef-info">
                     <li className="name">Benito</li>
                     <li className="avatar"><img className="w-100" src={ require('@/assets/images/pages/home/section-02/chef.jpg') } alt=""/></li>
                     <li className="name">Gaspare</li>
                   </ul>
-                  <div className="ty">
+                  <div className="testimonial">
                     Unique creations for unique occasions.
                     <img className="start-text" src={ require('@/assets/images/pages/home/section-02/icon-01.png') } alt=""/>
                     <img className="end-text" src={ require('@/assets/images/pages/home/section-02/icon-02.png') } alt=""/>
